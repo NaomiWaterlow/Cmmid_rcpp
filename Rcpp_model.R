@@ -6,7 +6,7 @@ library(data.table)
 library(deSolve)
 library(Rcpp)
 library(MASS)
-library(tmvtnorm)
+
 
 # format the data 
 input_data <- readRDS("SIRsample.rds")
